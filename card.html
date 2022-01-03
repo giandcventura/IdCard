@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+
+    <style>
+
+        section{
+            position:relative;
+            display: flex;
+            justify-content: center;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+
+        .card{
+            width: 500px;
+            height: 450px;
+            background: #FA8072 ;
+            border-radius: 20px;
+            overflow: hidden;
+        }   
+        
+        .card img{
+            width: 100%;
+        }
+
+        .card :nth-child(2),.card :nth-child(3),.card :nth-child(4){
+            text-align: center;
+            color:whitesmoke;
+        }
+
+        .footer{
+            position:relative;
+            width: 400px;
+            display: flex;
+            justify-content: space-around;
+            
+
+        }
+
+        .footer p{
+            color:whitesmoke;
+            font-weight: bold;
+            width: 100px;
+            height: 35px;
+            background:  #2e86c1;
+            text-align: center;
+            border-radius: 7px;
+            padding:5px;
+
+
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <section>
+        <div class="card">
+            <img src="https://res.cloudinary.com/dktx1oojk/image/upload/f_auto,q_90,w_1000,c_scale/web/globalassets/es/consejos/gato-consejos-2.jpg" alt="un gato">
+            <p>Panqueque</p>
+            <p>love.panqueque@gmail.com</p>
+            <div class="footer">
+                <p>Following</p>
+                <p>Message</p>
+            </div>
+            
+        </div>
+    </section>
+</body>
+</html>
